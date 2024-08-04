@@ -1,5 +1,7 @@
 import streamlit as st
 import pyttsx3
+import os
+os.environ['PATH'] += r";C:\Program Files\eSpeak"
 
 def bmi_calculator(height, weight):
     bmi = weight / (height ** 2)
