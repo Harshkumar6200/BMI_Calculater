@@ -18,7 +18,7 @@ def bmi_calculator(height, weight):
     return bmi, category
 
 def main():
-    st.image(r"D:\PYTHON1\BMI Calculator\BMI image.jpg")
+    st.image(r"BMI image.jpg")
     st.title("BMI Calculator")
     st.write("Please enter your weight and your height")
     weight = st.number_input("Weight (kg)")
